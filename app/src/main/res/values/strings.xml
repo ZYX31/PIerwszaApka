@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Pierwsza Apka</string>
-    <string name="ButtonF">Przycisk 1</string>
-    <string name="ButtonS">Przycisk 2</string>
-    <string name="Tekst">Pierwsza Aplikacja</string>
+    <string name="ButtonF">Przekorny Los</string>
+    <string name="ButtonS">Zenek Martyniuk</string>
+    <string name="text">Pierwsza Aplikacja</string>
 </resources>
