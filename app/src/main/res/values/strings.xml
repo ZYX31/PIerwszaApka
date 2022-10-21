@@ -1,4 +1,5 @@
 <resources>
+    <!-- Robisz taki trik ze piszesz i ci @string/buttonF i masz Przekorny los-->
     <string name="app_name">Pierwsza Apka</string>
     <string name="ButtonF">Przekorny Los</string>
     <string name="ButtonS">Zenek Martyniuk</string>

@@ -32,7 +32,7 @@
             android:padding="5dp"
             android:text="@string/ButtonF"
             android:textColor="#2F188C"
-            android:textSize="16sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -47,7 +47,7 @@
             android:padding="5dp"
             android:text="@string/ButtonS"
             android:textColor="#E27940"
-            android:textSize="16sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
     </LinearLayout>

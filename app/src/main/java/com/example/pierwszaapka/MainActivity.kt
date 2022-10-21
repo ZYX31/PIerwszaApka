@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         buttonS.setOnClickListener{
             val message = Toast.makeText(applicationContext,"Los chce ze mna grac w pokera!",Toast.LENGTH_SHORT)
             message.show()
-
+            //Przekierowuje na wiki zenka
             val adress = "https://pl.wikipedia.org/wiki/Zenon_Martyniuk"
             val channelRevolShen = Intent(ACTION_VIEW, Uri.parse(adress))
             startActivity(channelRevolShen)
