@@ -8,4 +8,15 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
     }
+    override fun onUserInteraction(){
+        super.onUserInteraction()
+
+        if(R.id.Password.isfocused){
+            if(R.id.Password.length() < 8){
+               R.id.Password.setText("Haslo za krotkie!")
+                R.id.Password.visibility
+            }
+        }
+    }
+
 }

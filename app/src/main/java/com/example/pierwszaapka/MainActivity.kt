@@ -5,6 +5,8 @@ import android.content.Intent
 import android.content.Intent.ACTION_VIEW
 import android.net.Uri
 import android.os.Bundle
+import android.os.Message
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -27,14 +29,20 @@ class MainActivity : AppCompatActivity() {
             var nowaAktywnosc: Intent = Intent(applicationContext, SecondActivity::class.java)
             startActivity(nowaAktywnosc)
         }
-        buttonS.setOnClickListener{
-            val message = Toast.makeText(applicationContext,"Los chce ze mna grac w pokera!",Toast.LENGTH_SHORT)
+        buttonS.setOnClickListener {
+            val message = Toast.makeText(
+                applicationContext,
+                "Los chce ze mna grac w pokera!",
+                Toast.LENGTH_SHORT
+            )
             message.show()
             //Przekierowuje na wiki zenka
             val adress = "https://pl.wikipedia.org/wiki/Zenon_Martyniuk"
             val channelRevolShen = Intent(ACTION_VIEW, Uri.parse(adress))
             startActivity(channelRevolShen)
         }
-
     }
 }
+
+
+
