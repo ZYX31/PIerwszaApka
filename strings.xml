@@ -1,0 +1,16 @@
+<resources>
+    <!-- Robisz taki trik ze piszesz i ci @string/buttonF i masz Przekorny los-->
+    <string name="app_name">Pierwsza Apka</string>
+    <string name="ButtonF">Przekorny Los</string>
+    <string name="ButtonS">Zencio</string>
+    <string name="text">Pierwsza Aplikacja</string>
+    <string name="login">Your Login</string>
+    <string name="pass">Your Password</string>
+    <string name="email">Your Email</string>
+    <string name="set_your_sex">Set your sex</string>
+    <string name="i_don_t_know">I don\'t know</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="kropki">...</string>
+    <string name="ButtonT">Trojeczka</string>
+</resources>

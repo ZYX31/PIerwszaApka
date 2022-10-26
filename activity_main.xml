@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/purple_200" >
+
+    <TextView
+        android:id="@+id/Tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00404040"
+        android:padding="24dp"
+        android:text="@string/text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonT"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FF1919"
+            android:padding="5dp"
+            android:text="@string/ButtonT"
+            android:textColor="#FFE6F2"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonF"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#83D1D8"
+            android:padding="5dp"
+            android:text="@string/ButtonF"
+            android:textColor="#2F188C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonS"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:backgroundTintMode="add"
+            android:padding="5dp"
+            android:text="@string/ButtonS"
+            android:textColor="#E27940"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+//
+</LinearLayout>
